@@ -58,6 +58,10 @@ modules:
 
   - name: scid # main app
     buildsystem: cmake-ninja
+    build-options:
+      env:
+        CFLAGS: -ffile-prefix-map=../=.
+        CXXFLAGS: -ffile-prefix-map=../=.
     sources:
       - type: git
         url: https://github.com/whelanh/scidCommunity.git
