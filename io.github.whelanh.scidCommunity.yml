@@ -61,5 +61,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/whelanh/scidCommunity.git
-        commit: 64b34b86bbf8fd0f66bac7ef54e6ddbc9adf5ac5
+        commit: 43dfaf27d8a7a748b1f90ae4e5e2a4a93fac19c9
         disable-shallow-clone: true
