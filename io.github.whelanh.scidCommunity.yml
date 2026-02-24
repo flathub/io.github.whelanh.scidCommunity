@@ -12,7 +12,6 @@ finish-args:
   - --share=ipc              # share IPC namespace with the host (necessary for X11)
   - --device=dri             # OpenGL rendering
   - --socket=pulseaudio      # play sound with PulseAudio
-  - --filesystem=xdg-run/pulse # allow access to PulseAudio/Pipewire socket directory
     
 modules:
   - name: tcl # latest stable tcl, required for scid
@@ -42,4 +41,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/whelanh/scidCommunity.git
-        commit: 6e3f4981005873f0ea5f44d9aa054c70321ef68d
+        commit: 20343b98614d98b6333f6e726bf08180529fd45e
