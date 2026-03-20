@@ -41,4 +41,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/whelanh/scidCommunity.git
-        commit: 2d9a2a5f0c2018d66509f4c4fa2d0f7ff1729915
+        commit: fc4b6c77ae5dead47480d4c5a5aaf21b938e3213
