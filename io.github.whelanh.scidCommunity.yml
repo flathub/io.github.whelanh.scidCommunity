@@ -1,6 +1,6 @@
 app-id: io.github.whelanh.scidCommunity
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: scidCommunity
 
@@ -41,5 +41,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/whelanh/scidCommunity.git
-        commit: 98c2bdbc4571e0c0fce0f623f9b874652af0b600 
+        commit: 5bb447dd0c3cf8431fde29832c31a159ff6a5253 
         
